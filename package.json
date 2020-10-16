@@ -2,6 +2,10 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "nohoist": ["gatsby*"]
+  },
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.79",
